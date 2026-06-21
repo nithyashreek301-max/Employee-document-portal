@@ -1,12 +1,13 @@
 from flask import Flask, render_template, request
-import os
+import boto3
 
 app = Flask(__name__)
 
-UPLOAD_FOLDER = "uploads"
+# Replace with your bucket name
+BUCKET_NAME = "your-s3-bucket-name"
 
-if not os.path.exists(UPLOAD_FOLDER):
-    os.makedirs(UPLOAD_FOLDER)
+# Uses EC2 IAM Role automatically
+s3 = boto3.client("s3")
 
 uploaded_files = []
 
@@ -25,12 +26,12 @@ def upload():
 
     if employee_name and uploaded_file:
 
-        filepath = os.path.join(
-            UPLOAD_FOLDER,
+        # Upload file directly to S3
+        s3.upload_fileobj(
+            uploaded_file,
+            BUCKET_NAME,
             uploaded_file.filename
         )
-
-        uploaded_file.save(filepath)
 
         uploaded_files.append({
             "employee": employee_name,
@@ -40,7 +41,7 @@ def upload():
     return render_template(
         "index.html",
         files=uploaded_files,
-        message="Document uploaded successfully!"
+        message="Document uploaded successfully to S3!"
     )
 
 if __name__ == "__main__":

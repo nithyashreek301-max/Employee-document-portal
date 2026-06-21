@@ -4,7 +4,7 @@ import boto3
 app = Flask(__name__)
 
 # Replace with your bucket name
-BUCKET_NAME = "your-s3-bucket-name"
+BUCKET_NAME = "employee-document-storage-unique"
 
 # Uses EC2 IAM Role automatically
 s3 = boto3.client("s3")

@@ -123,7 +123,7 @@ Internet
 ![NAT Gateway](https://github.com/nithyashreek301-max/Employee-document-portal/blob/main/screenshots/NAT.png)
 
 ### ALB — Load Balancer Active ✅
-![ALB](https://github.com/nithyashreek301-max/Employee-document-portal/blob/main/screenshots/LB.png)
+![ALB](https://github.com/nithyashreek301-max/Employee-document-portal/blob/main/screenshots/ALB.png)
 
 ### ASG — Auto Scaling Group Running ✅
 ![ASG](https://github.com/nithyashreek301-max/Employee-document-portal/blob/main/screenshots/ASG.png)

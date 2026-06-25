@@ -117,31 +117,25 @@ Internet
 ## Screenshots
 
 ### AWS VPC — Subnets and Networking ✅
-![VPC](https://raw.githubusercontent.com/nithyashreek301-max/Employee-document-portal/main/screenshots/vpc.png)
+![VPC](https://github.com/nithyashreek301-max/Employee-document-portal/blob/main/screenshots/VPC.png)
 
 ### NAT Gateway — Private Subnet Internet Access ✅
-![NAT Gateway](https://raw.githubusercontent.com/nithyashreek301-max/Employee-document-portal/main/screenshots/nat_gateway.png)
+![NAT Gateway](https://github.com/nithyashreek301-max/Employee-document-portal/blob/main/screenshots/NAT.png)
 
 ### ALB — Load Balancer Active ✅
-![ALB](https://raw.githubusercontent.com/nithyashreek301-max/Employee-document-portal/main/screenshots/alb.png)
-
-### Target Group — Healthy Targets Registered ✅
-![Target Group](https://raw.githubusercontent.com/nithyashreek301-max/Employee-document-portal/main/screenshots/target_group.png)
+![ALB](https://github.com/nithyashreek301-max/Employee-document-portal/blob/main/screenshots/LB.png)
 
 ### ASG — Auto Scaling Group Running ✅
-![ASG](https://raw.githubusercontent.com/nithyashreek301-max/Employee-document-portal/main/screenshots/asg.png)
+![ASG](https://github.com/nithyashreek301-max/Employee-document-portal/blob/main/screenshots/ASG.png)
 
 ### EC2 Instances — Running in Private Subnet ✅
-![EC2](https://raw.githubusercontent.com/nithyashreek301-max/Employee-document-portal/main/screenshots/ec2.png)
-
-### S3 Bucket — Documents Uploaded ✅
-![S3](https://raw.githubusercontent.com/nithyashreek301-max/Employee-document-portal/main/screenshots/s3.png)
+![EC2](https://github.com/nithyashreek301-max/Employee-document-portal/blob/main/screenshots/EC2.png)
 
 ### Employee Document Portal — Live Application ✅
-![App](https://raw.githubusercontent.com/nithyashreek301-max/Employee-document-portal/main/screenshots/app.png)
+![App](https://github.com/nithyashreek301-max/Employee-document-portal/blob/main/screenshots/Portal.png)
 
-### CloudWatch Alarm — Unhealthy Target Monitoring ✅
-![CloudWatch](https://raw.githubusercontent.com/nithyashreek301-max/Employee-document-portal/main/screenshots/cloudwatch.png)
+### CloudWatch Alarm & SNS — Monitoring ✅
+![CloudWatch](https://github.com/nithyashreek301-max/Employee-document-portal/blob/main/screenshots/SNS.png)
 
 ---
 
